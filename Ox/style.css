@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    background-size: cover;
+    
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(144, 144, 144, 0.8); /* Add a semi-transparent white background */
+    border-radius: 10px; /* Add smooth edges */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.997); /* Add a subtle shadow */
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #8c8c8c;
+    cursor: pointer;
+    background-color: rgba(234, 231, 231, 0.8); /* Add a semi-transparent white background to cells */
+    border-radius: 10px; /* Add smooth edges to cells */
+}
+
+.cell:hover {
+    background-color: rgba(139, 139, 139, 0.8); /* Change cell background on hover */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #ff0000; /* Add a blue color to the button */
+    color: #fff; /* Text color for the button */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+button:hover {
+    background-color: #910000; /* Change button background on hover */
+}
+
+h1 {
+    font-size: 32px;
+    color: #0a0a0a; /* Text color for the heading */
+}
+
+#message {
+
+    font-size: 24px;
+    color: #fff; /* Text color for the message */
+}
