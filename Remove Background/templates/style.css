@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 50%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex;
+    border-radius: 5px;
+    background-color:rgba(188, 249, 247, 0.977);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px #404f4f;
+
+}
+#display::-webkit-scrollbar {
+    display: block;
+    height: 3px;
+}
+
+.centered {
+    text-align: center;
+}
+
